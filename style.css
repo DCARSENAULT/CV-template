@@ -19,7 +19,7 @@ p {
 	font-size: 1em;
 	line-height: 1.4em;
 	margin-bottom: 20px;
-	color: #444;
+	color: #0-0-255;
 }
 
 #cv {
@@ -75,13 +75,13 @@ p {
 
 #contactDetails ul {
 	list-style-type: none;
-	font-size: 0.9em;
+	font-size: 1.5em;
 	margin-top: 2px;
 }
 
 #contactDetails ul li {
 	margin-bottom: 3px;
-	color: #444;
+	color: #0-0-255;
 }
 
 #contactDetails ul li a, a[href^=tel] {
