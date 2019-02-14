@@ -1,4 +1,9 @@
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,
+blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,
+kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,table,caption,tbody,tfoot,thead,
+tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,
+hgroup,menu,nav,section,summary,time,mark,audio,video {
 border:0;
 font:inherit;
 font-size:100%;
@@ -115,7 +120,7 @@ section:last-child {
 
 .sectionTitle {
 	float: left;
-	width: 25%;
+	width: 20%;
 }
 
 .sectionContent {
@@ -127,22 +132,37 @@ section:last-child {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 1.5em;
-	color: rgb(2, 99, 71);
+	color: rgb(15, 130, 30);
 	}
 
 .sectionContent h2 {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
 	margin-bottom: -2px;
+	color: rgb(130, 15, 30);
 }
 
 .sectionContent h3 {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
 	margin-bottom: -2px;
-	color: rgb(2, 99, 71);
+	color: rgb(30, 15, 130);
 }
 
+.sectionContent h4 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	margin-bottom: -2px;
+	color: rgb(60, 60, 60);
+}
+
+.subsectionTitle h3 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	margin-left: -20px;
+	margin-bottom: -2px;
+	color: rgb(30, 15, 130);
+	}
 
 .subDetails {
 	font-size: 0.8em;
@@ -151,18 +171,15 @@ section:last-child {
 }
 
 .keySkills {
-	list-style-type: none;
-	-moz-column-count:3;
-	-webkit-column-count:3;
-	column-count:3;
+	list-style-type: square;
+	-moz-column-count:1;
+	-webkit-column-count:1;
+	column-count:1;
 	margin-bottom: 20px;
 	font-size: 1em;
 	color: #444;
 }
 
-.keySkills ul li {
-	margin-bottom: 3px;
-}
 
 @media all and (min-width: 602px) and (max-width: 800px) {
 	#headshot {
