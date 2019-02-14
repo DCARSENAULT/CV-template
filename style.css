@@ -5,6 +5,7 @@ font-size:100%;
 margin:0;
 padding:0;
 vertical-align:baseline;
+
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
@@ -36,14 +37,14 @@ p {
 }
 
 #name h1 {
-	font-size: 1.75em;
+	font-size: 1.95em;
 	font-weight: 600;
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	margin-bottom: -6px;
 }
 
 #name h2 {
-	font-size: 1.5em;
+	font-size: 1.50em;
 	margin-left: 2px;
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 }
@@ -75,7 +76,7 @@ p {
 
 #contactDetails ul {
 	list-style-type: none;
-	font-size: 1.5em;
+	font-size: 1.25em;
 	margin-top: 2px;
 }
 
@@ -126,14 +127,22 @@ section:last-child {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 1.5em;
-	color: #cf8a05;
-}
+	color: rgb(2, 99, 71);
+	}
 
 .sectionContent h2 {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
 	margin-bottom: -2px;
 }
+
+.sectionContent h3 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	margin-bottom: -2px;
+	color: rgb(2, 99, 71);
+}
+
 
 .subDetails {
 	font-size: 0.8em;
